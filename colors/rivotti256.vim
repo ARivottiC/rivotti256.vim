@@ -77,6 +77,13 @@ hi Visual                   ctermbg=238 cterm=NONE
 hi TabLine      ctermfg=235 ctermbg=248 cterm=NONE
 hi TabLineSel   ctermfg=245 ctermbg=16  cterm=NONE
 
+hi clear SignColumn
+hi SignColumn ctermfg=black
+hi GitGutterAdd ctermbg=darkgreen ctermfg=black
+hi GitGutterChange ctermbg=darkyellow ctermfg=black
+hi GitGutterDelete ctermbg=darkred ctermfg=black
+hi GitGutterChangeDelete ctermbg=darkyellow ctermfg=black
+
 runtime! plugin/rivotti256/*.vim
 
 " vim:ts=4:sw=4
