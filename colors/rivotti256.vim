@@ -2,7 +2,8 @@
 " Maintainer: André Rivotti Casimiro <andre.r.casimiro@gmail.com>
 
 hi clear
-set background=light
+"set background=dark
+"set background=light
 if exists("syntax_on")
     syntax reset
 endif
@@ -31,7 +32,7 @@ hi Delimiter   ctermfg=242
 " Float
 " FoldColumn
 " Folded
-hi Function     ctermfg=31
+hi Function     ctermfg=71
 hi Identifier   ctermfg=31
 hi IncSearch                            cterm=reverse
 hi Keyword      ctermfg=172
@@ -44,7 +45,7 @@ hi LineNr       ctermfg=242 ctermbg=235 cterm=NONE
 hi Number       ctermfg=203
 hi Operator     ctermfg=222
 " PreCondit
-hi PreProc      ctermfg=92
+hi PreProc      ctermfg=98
 " Question
 hi Repeat       ctermfg=172
 hi Search       ctermfg=16  ctermbg=243
@@ -84,6 +85,14 @@ hi GitGutterChange ctermbg=darkyellow ctermfg=black
 hi GitGutterDelete ctermbg=darkred ctermfg=black
 hi GitGutterChangeDelete ctermbg=darkyellow ctermfg=black
 
-runtime! plugin/rivotti256/*.vim
+" Perl Specific
+" perlStatementIndirObj " map grep sort
+" perlStatementList     " push, pull, join, shift
+" perlStatementControl  " return, next, last
+" perlConditional       " if, else
+"hi perlFunctionName     ctermfg=172 " use, require, strict, warnings
+hi perlStatementInclude ctermfg=215
+hi perlStatementStorage ctermfg=222 " my, our, local
+hi perlMethod           ctermfg=71
 
 " vim:ts=4:sw=4
