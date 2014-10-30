@@ -2,8 +2,6 @@
 " Maintainer: André Rivotti Casimiro <andre.r.casimiro@gmail.com>
 
 hi clear
-"set background=dark
-"set background=light
 if exists("syntax_on")
     syntax reset
 endif
@@ -90,7 +88,7 @@ hi GitGutterChangeDelete ctermbg=darkyellow ctermfg=black
 " perlStatementList     " push, pull, join, shift
 " perlStatementControl  " return, next, last
 " perlConditional       " if, else
-"hi perlFunctionName     ctermfg=172 " use, require, strict, warnings
+hi perlFunctionName     ctermfg=71  " use, require, strict, warnings
 hi perlStatementInclude ctermfg=215
 hi perlStatementStorage ctermfg=222 " my, our, local
 hi perlMethod           ctermfg=71
