@@ -17,13 +17,13 @@ hi Constant  ctermfg=167
 hi Number    ctermfg=203 cterm=bold
 
 " *Identifier Function
-hi Identifier ctermfg=31 cterm=NONE
+hi Identifier ctermfg=25 cterm=NONE
+hi Function   ctermfg=31 cterm=NONE
 
 " *Statement Conditional Repeat Label Operator Keyword Exception
 hi Statement ctermfg=215
 hi Repeat    ctermfg=208
 hi Operator  ctermfg=221 cterm=bold
-hi Keyword   ctermfg=208
 
 " *PreProc Include Define Macro PreCondit
 hi PreProc ctermfg=98
@@ -65,10 +65,11 @@ hi GitGutterDelete       ctermfg=52 ctermbg=16 cterm=bold
 hi GitGutterChangeDelete ctermfg=94 ctermbg=16 cterm=bold
 
 " Perl Specific
-hi perlSubName          ctermfg=71
-hi perlFunctionName     ctermfg=71
+hi def link perlSubName             Function
+hi def link perlFunctionName        Function
+hi def link perlMethod              Function
+hi def link perlStatementStorage    Type
+hi def link perlFunction            Repeat
 hi perlStatementInclude ctermfg=215
-hi perlStatementStorage ctermfg=222
-hi perlMethod           ctermfg=71
 
 " vim:ts=4:sw=4
