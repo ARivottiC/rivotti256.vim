@@ -13,23 +13,26 @@ hi Normal ctermfg=252
 hi Comment ctermfg=244
 
 " *Constant String Character Number Boolean Float
-hi Constant  ctermfg=167
+hi Constant  ctermfg=210
+hi String    ctermfg=167
 hi Number    ctermfg=203 cterm=bold
 
 " *Identifier Function
-hi Identifier ctermfg=25 cterm=NONE
-hi Function   ctermfg=31 cterm=NONE
+hi Identifier ctermfg=31 cterm=NONE
+hi Function   ctermfg=25 cterm=NONE
 
 " *Statement Conditional Repeat Label Operator Keyword Exception
-hi Statement ctermfg=215
-hi Repeat    ctermfg=208
-hi Operator  ctermfg=221 cterm=bold
+hi Statement    ctermfg=215
+hi Conditional  ctermfg=208
+hi Repeat       ctermfg=222 cterm=bold
+hi Operator     ctermfg=222 cterm=bold
 
 " *PreProc Include Define Macro PreCondit
 hi PreProc ctermfg=98
 
 " *Type StorageClass Structure Typedef
-hi Type ctermfg=71
+hi Type         ctermfg=71
+hi StorageClass ctermfg=113
 
 " *Special SpecialChar Tag Delimiter SpecialComment Debug
 hi Special   ctermfg=255
@@ -64,12 +67,30 @@ hi GitGutterChange       ctermfg=94 ctermbg=16 cterm=bold
 hi GitGutterDelete       ctermfg=52 ctermbg=16 cterm=bold
 hi GitGutterChangeDelete ctermfg=94 ctermbg=16 cterm=bold
 
-" Perl Specific
+" Perl
 hi def link perlSubName             Function
 hi def link perlFunctionName        Function
 hi def link perlMethod              Function
-hi def link perlStatementStorage    Type
-hi def link perlFunction            Repeat
+hi def link perlStatementStorage    StorageClass
+hi def link perlStatementControl    Repeat
+hi def link perlFunction            Type
 hi perlStatementInclude ctermfg=215
+
+" Javascript
+hi def link javaScriptEndColons             Normal
+hi def link javaScriptGlobalObjects         Type
+hi def link javaScriptReserved              Keyword
+hi def link javaScriptIdentifier            StorageClass
+hi def link javaScriptFuncKeyword           Type
+hi def link javaScriptFuncDef               Function
+hi def link javaScriptFuncExp               Function
+hi def link javaScriptDOMMethods            Function
+hi def link javaScriptDOMObjects            Type
+hi def link javaScriptDOMProperties         Constant
+hi def link javaScriptHtmlElemProperties    Constant
+hi def link javaScriptParens                Normal
+
+" Css
+hi def link cssVendor   Type
 
 " vim:ts=4:sw=4
