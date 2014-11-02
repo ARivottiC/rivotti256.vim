@@ -10,7 +10,7 @@ let g:colors_name="rivotti256"
 hi Normal ctermfg=252
 
 " *Comment
-hi Comment ctermfg=244
+hi Comment ctermfg=243
 
 " *Constant String Character Number Boolean Float
 hi Constant  ctermfg=210
@@ -19,12 +19,12 @@ hi Number    ctermfg=203 cterm=bold
 
 " *Identifier Function
 hi Identifier ctermfg=31 cterm=NONE
-hi Function   ctermfg=25 cterm=NONE
+hi Function   ctermfg=109 cterm=NONE
 
 " *Statement Conditional Repeat Label Operator Keyword Exception
 hi Statement    ctermfg=215
-hi Conditional  ctermfg=208
-hi Repeat       ctermfg=222 cterm=bold
+hi Conditional  ctermfg=209
+hi Repeat       ctermfg=222
 hi Operator     ctermfg=222 cterm=bold
 
 " *PreProc Include Define Macro PreCondit
@@ -74,7 +74,7 @@ hi def link perlMethod              Function
 hi def link perlStatementStorage    StorageClass
 hi def link perlStatementControl    Repeat
 hi def link perlFunction            Type
-hi perlStatementInclude ctermfg=215
+hi def link perlStatementInclude    Statement
 
 " Javascript
 hi def link javaScriptEndColons             Normal
