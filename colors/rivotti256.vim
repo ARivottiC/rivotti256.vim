@@ -67,6 +67,10 @@ hi GitGutterChange       ctermfg=94 ctermbg=16 cterm=bold
 hi GitGutterDelete       ctermfg=52 ctermbg=16 cterm=bold
 hi GitGutterChangeDelete ctermfg=94 ctermbg=16 cterm=bold
 
+"
+hi SyntasticErrorSign   ctermfg=red    ctermbg=16 cterm=bold
+hi SyntasticWarningSign ctermfg=yellow ctermbg=16 cterm=bold
+
 " Perl
 hi def link perlSubName             Function
 hi def link perlFunctionName        Function
