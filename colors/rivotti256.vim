@@ -65,7 +65,7 @@ hi PmenuSbar    ctermfg=16  ctermbg=238
 hi GitGutterAdd             ctermfg=23 ctermbg=16 cterm=bold
 hi GitGutterChange          ctermfg=94 ctermbg=16 cterm=bold
 hi GitGutterDelete          ctermfg=88 ctermbg=16 cterm=bold
-hi GitGutterChangeDelete    ctermbg=88 ctermfg=16 cterm=bold
+hi GitGutterChangeDelete    ctermfg=88 ctermbg=16 cterm=bold
 
 "
 hi SyntasticErrorSign   ctermfg=red    ctermbg=16 cterm=bold
