@@ -46,9 +46,9 @@ hi LineNr       ctermfg=242 ctermbg=234
 hi CursorLineNr ctermfg=247 ctermbg=234 cterm=bold
 hi SignColumn   ctermfg=235 ctermbg=16
 
-hi DiffAdd    ctermbg=22
+hi DiffAdd    ctermbg=23
 hi DiffChange ctermbg=94
-hi DiffDelete ctermbg=52
+hi DiffDelete ctermbg=88
 "hi DiffText cterm=bold
 
 hi TabLine    ctermfg=255 ctermbg=238
@@ -62,10 +62,10 @@ hi PmenuSel     ctermfg=16  ctermbg=242
 hi PmenuSbar    ctermfg=16  ctermbg=238
 
 " GitGutter
-hi GitGutterAdd          ctermfg=22 ctermbg=16 cterm=bold
-hi GitGutterChange       ctermfg=94 ctermbg=16 cterm=bold
-hi GitGutterDelete       ctermfg=52 ctermbg=16 cterm=bold
-hi GitGutterChangeDelete ctermfg=94 ctermbg=16 cterm=bold
+hi GitGutterAdd             ctermfg=23 ctermbg=16 cterm=bold
+hi GitGutterChange          ctermfg=94 ctermbg=16 cterm=bold
+hi GitGutterDelete          ctermfg=88 ctermbg=16 cterm=bold
+hi GitGutterChangeDelete    ctermbg=88 ctermfg=16 cterm=bold
 
 "
 hi SyntasticErrorSign   ctermfg=red    ctermbg=16 cterm=bold
