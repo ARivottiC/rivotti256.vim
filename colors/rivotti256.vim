@@ -39,17 +39,23 @@ hi Special   ctermfg=255
 hi Delimiter ctermfg=242
 
 " Visual Aids
-hi CursorLine ctermbg=234 cterm=bold
-hi Visual     ctermbg=236 cterm=NONE
+hi CursorLine   ctermbg=234 cterm=bold
+hi MatchParen   ctermfg=17  ctermbg=45 term=bold
+hi Visual       ctermbg=236 cterm=NONE
 
 hi LineNr       ctermfg=242 ctermbg=234
 hi CursorLineNr ctermfg=247 ctermbg=234 cterm=bold
 hi SignColumn   ctermfg=235 ctermbg=16
 
-hi DiffAdd    ctermbg=23
-hi DiffChange ctermbg=94
-hi DiffDelete ctermbg=88
+hi DiffAdd    ctermbg=23 ctermfg=15 term=bold
+hi DiffChange ctermbg=94 ctermfg=15 term=bold
+hi DiffDelete ctermbg=88 ctermfg=15 term=bold
 "hi DiffText cterm=bold
+
+hi SpellCap   ctermbg=94 ctermfg=15 term=bold
+hi SpellLocal ctermbg=94 ctermfg=15 term=bold
+hi SpellBad   ctermbg=88 ctermfg=15 term=bold
+hi SpellRare  ctermbg=88 ctermfg=15 term=bold
 
 hi TabLine    ctermfg=255 ctermbg=238
 hi TabLineSel ctermfg=17  ctermbg=190
@@ -57,9 +63,9 @@ hi TabLineSel ctermfg=17  ctermbg=190
 hi IncSearch ctermfg=16 ctermbg=179 cterm=NONE
 hi Search    ctermfg=16 ctermbg=179 cterm=bold
 
-hi Pmenu        ctermfg=255 ctermbg=237
-hi PmenuSel     ctermfg=16  ctermbg=242
-hi PmenuSbar    ctermfg=16  ctermbg=238
+hi Pmenu     ctermfg=244 ctermbg=234
+hi PmenuSel  ctermfg=17  ctermbg=190 term=bold
+hi PmenuSbar ctermfg=16  ctermbg=38
 
 " GitGutter
 hi GitGutterAdd             ctermfg=23 ctermbg=16 cterm=bold
