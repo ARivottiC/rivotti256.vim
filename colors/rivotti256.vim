@@ -40,7 +40,7 @@ hi Delimiter ctermfg=242
 
 " Visual Aids
 hi CursorLine   ctermbg=234 cterm=bold
-hi MatchParen   ctermfg=17  ctermbg=45 term=bold
+hi MatchParen   ctermfg=238  ctermbg=179 term=bold
 hi Visual       ctermbg=236 cterm=NONE
 
 hi LineNr       ctermfg=242 ctermbg=234
@@ -60,10 +60,10 @@ hi SpellRare  ctermbg=88 ctermfg=15 term=bold
 hi TabLine    ctermfg=255 ctermbg=238
 hi TabLineSel ctermfg=17  ctermbg=190
 
-hi IncSearch ctermfg=16 ctermbg=179 cterm=NONE
+hi IncSearch ctermfg=238 ctermbg=179 cterm=NONE
 hi Search    ctermfg=16 ctermbg=179 cterm=bold
 
-hi Pmenu     ctermfg=244 ctermbg=234
+hi Pmenu     ctermfg=246 ctermbg=234
 hi PmenuSel  ctermfg=17  ctermbg=190 term=bold
 hi PmenuSbar ctermfg=16  ctermbg=38
 
