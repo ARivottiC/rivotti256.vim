@@ -103,4 +103,13 @@ hi def link javaScriptParens                Normal
 " Css
 hi def link cssVendor   Type
 
+" Markdown
+
+hi def link markdownCode        Constant
+hi def link markdownLinkText    String
+
+hi makrdownBold     ctermfg=white cterm=bold
+hi markdownItalic   cterm=italic
+hi markdownUrl      ctermfg=31 cterm=italic,underline
+
 " vim:ts=4:sw=4
