@@ -10,11 +10,11 @@ let g:colors_name="rivotti256"
 hi Normal ctermfg=252
 
 " *Comment
-hi Comment ctermfg=243
+hi Comment ctermfg=243 cterm=italic
 
 " *Constant String Character Number Boolean Float
 hi Constant  ctermfg=210
-hi String    ctermfg=167
+hi String    ctermfg=167 cterm=italic
 hi Number    ctermfg=203 cterm=bold
 
 " *Identifier Function
@@ -110,6 +110,6 @@ hi def link markdownLinkText    String
 
 hi makrdownBold     ctermfg=white cterm=bold
 hi markdownItalic   cterm=italic
-hi markdownUrl      ctermfg=31 cterm=italic,underline
+hi markdownUrl      ctermfg=31 cterm=underline
 
 " vim:ts=4:sw=4
