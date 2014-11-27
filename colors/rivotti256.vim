@@ -42,6 +42,7 @@ hi Delimiter ctermfg=242
 hi CursorLine   ctermbg=234 cterm=bold
 hi MatchParen   ctermfg=238  ctermbg=179 term=bold
 hi Visual       ctermbg=236 cterm=NONE
+hi ColorColumn  ctermbg=88 ctermfg=15 term=bold
 
 hi LineNr       ctermfg=242 ctermbg=234
 hi CursorLineNr ctermfg=247 ctermbg=234 cterm=bold
