@@ -60,7 +60,7 @@ hi SpellRare  ctermbg=88 ctermfg=15 term=bold
 hi TabLine    ctermfg=255 ctermbg=238
 hi TabLineSel ctermfg=17  ctermbg=190
 
-hi IncSearch ctermfg=238 ctermbg=179 cterm=NONE
+hi IncSearch ctermfg=17 ctermbg=190 cterm=bold
 hi Search    ctermfg=16 ctermbg=179 cterm=bold
 
 hi Pmenu     ctermfg=246 ctermbg=234
@@ -73,7 +73,7 @@ hi GitGutterChange          ctermfg=94 ctermbg=16 cterm=bold
 hi GitGutterDelete          ctermfg=88 ctermbg=16 cterm=bold
 hi GitGutterChangeDelete    ctermfg=88 ctermbg=16 cterm=bold
 
-"
+" Syntastic
 hi SyntasticErrorSign   ctermfg=red    ctermbg=16 cterm=bold
 hi SyntasticWarningSign ctermfg=yellow ctermbg=16 cterm=bold
 
