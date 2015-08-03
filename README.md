@@ -1,6 +1,6 @@
 # rivotti256.vim
 
-A beautiful low contrast Vim color scheme. Works on 256-color terminal.
+A beautiful low contrast Vim color scheme. Works on 256-color terminals.
 
 ![vim.png](https://raw.githubusercontent.com/ARivottiC/rivotti256.vim/master/vim.png)
 
@@ -41,7 +41,7 @@ xterm-256color-italic|xterm with 256 colors and italic,
 EOF
 ```
 
-Then add to your *.bashrc*:
+Then add this to your *.bashrc*:
 
 ```
 export TERM=xterm256-color-italic
