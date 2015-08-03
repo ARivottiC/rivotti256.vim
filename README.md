@@ -47,3 +47,6 @@ Then add this to your *.bashrc*:
 export TERM=xterm256-color-italic
 ```
 
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
