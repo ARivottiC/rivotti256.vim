@@ -40,18 +40,18 @@ hi Delimiter ctermfg=242
 
 " Visual Aids
 hi CursorLine   ctermbg=234 cterm=bold
-hi MatchParen   ctermfg=238  ctermbg=179 term=bold
+hi MatchParen   ctermfg=238 ctermbg=179 term=bold
 hi Visual       ctermbg=236 cterm=NONE
-hi ColorColumn  ctermbg=88 ctermfg=15 term=bold
+hi ColorColumn  ctermbg=88  ctermfg=15 term=bold
 
 hi LineNr       ctermfg=242 ctermbg=234
 hi CursorLineNr ctermfg=247 ctermbg=234 cterm=bold
 hi SignColumn   ctermfg=235 ctermbg=16
 
-hi DiffAdd    ctermbg=23 ctermfg=15 term=bold
-hi DiffChange ctermbg=94 ctermfg=15 term=bold
-hi DiffDelete ctermbg=88 ctermfg=15 term=bold
-"hi DiffText cterm=bold
+hi DiffAdd    ctermbg=23  ctermfg=15 term=bold
+hi DiffChange ctermbg=130 ctermfg=15 term=bold
+hi DiffDelete ctermbg=88  ctermfg=15 term=bold
+hi DiffText   ctermbg=88  ctermfg=15 cterm=bold
 
 hi SpellCap   ctermbg=94 ctermfg=15 term=bold
 hi SpellLocal ctermbg=94 ctermfg=15 term=bold
