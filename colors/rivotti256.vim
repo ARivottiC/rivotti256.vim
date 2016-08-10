@@ -101,7 +101,7 @@ hi def link javaScriptDOMProperties         Constant
 hi def link javaScriptHtmlElemProperties    Constant
 hi def link javaScriptParens                Normal
 
-" Css
+" CSS
 hi def link cssVendor   Type
 
 " Markdown
