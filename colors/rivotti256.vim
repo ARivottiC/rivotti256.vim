@@ -68,6 +68,8 @@ hi Pmenu     ctermfg=246 ctermbg=234
 hi PmenuSel  ctermfg=17  ctermbg=190 term=bold
 hi PmenuSbar ctermfg=16  ctermbg=38
 
+hi def link ExtraWhitespace ColorColumn
+
 " GitGutter
 hi GitGutterAdd             ctermfg=23 ctermbg=16 cterm=bold
 hi GitGutterChange          ctermfg=94 ctermbg=16 cterm=bold
@@ -112,5 +114,14 @@ hi def link markdownLinkText    String
 hi makrdownBold     ctermfg=white cterm=bold
 hi markdownItalic   cterm=italic
 hi markdownUrl      ctermfg=31 cterm=underline
+
+" Diff
+hi diffLine ctermfg=30 ctermbg=16
+hi diffAdded ctermfg=2 ctermbg=16
+hi diffRemoved ctermfg=1 ctermbg=16
+
+hi def link diffOnly  diffLine
+hi def link diffFile  diffAdded
+hi def link diffNewFile diffRemoved
 
 " vim:ts=4:sw=4
